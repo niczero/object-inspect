@@ -54,9 +54,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/inspect-js/object-inspect.git"
+    "url": "git://github.com/niczero/object-inspect.git"
   },
-  "homepage": "https://github.com/inspect-js/object-inspect",
+  "homepage": "https://github.com/niczero/object-inspect",
   "keywords": [
     "inspect",
     "util.inspect",
@@ -74,7 +74,7 @@
   },
   "license": "MIT",
   "browser": {
-    "./util.inspect.js": false
+    "./util_inspect.js": false
   },
   "auto-changelog": {
     "output": "CHANGELOG.md",

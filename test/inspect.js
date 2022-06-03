@@ -1,6 +1,6 @@
 var test = require('tape');
 var hasSymbols = require('has-symbols/shams')();
-var utilInspect = require('../util.inspect');
+var utilInspect = require('../util_inspect');
 var repeat = require('string.prototype.repeat');
 
 var inspect = require('..');
