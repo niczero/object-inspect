@@ -2,7 +2,6 @@
   "name": "object-inspect",
   "version": "1.12.2",
   "description": "string representations of objects in node and the browser",
-  "main": "index.js",
   "sideEffects": false,
   "devDependencies": {
     "@ljharb/eslint-config": "^21.0.0",
@@ -73,9 +72,7 @@
     "url": "https://github.com/sponsors/ljharb"
   },
   "license": "MIT",
-  "browser": {
-    "./util_inspect.js": false
-  },
+  "main": "util_inspect.js",
   "auto-changelog": {
     "output": "CHANGELOG.md",
     "template": "keepachangelog",
